@@ -1,0 +1,7 @@
+<section style="margin-top: 20px;">
+  <app-abm 
+    [in_students]="listStudents" 
+    (out_students)="sendList($event)"
+    [in_admin]="isAdmin"
+  ></app-abm>
+</section>
