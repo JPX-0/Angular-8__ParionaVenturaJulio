@@ -16,6 +16,8 @@ import { ContainerComponent } from './components/container/container.component';
 import { ListComponent } from './components/container/list/list.component';
 import { AbmComponent } from './components/container/abm/abm.component';
 import { SessionComponent } from './components/container/session/session.component';
+import { FullNamePipe } from './pipes/full-name.pipe';
+import { FontSizeDirective } from './directives/font-size.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SessionComponent } from './components/container/session/session.compone
     ContainerComponent,
     ListComponent,
     AbmComponent,
-    SessionComponent
+    SessionComponent,
+    FullNamePipe,
+    FontSizeDirective
   ],
   imports: [
     BrowserModule,
